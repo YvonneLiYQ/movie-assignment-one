@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Assignment 1 - ReactJS app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Name: Yangqing Li
 
-## Available Scripts
+## Overview.
 
-In the project directory, you can run:
+Web movies app Assignment 1
 
-### `npm start`
+### Features. 
++ Upcoming Movies Page
++ top Rated Page
++ popularMovies page
++ now Playing Page
++ actor pages
++ actor filter
++ can return homepage from movie details page
++ can return actor page from movie details page
++ login page 
++ must watch button to add to must watch page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API endpoints.
+- https://api.themoviedb.org/3/movie/${id}/credits  -get actors info in the movie details screen
+- https://api.themoviedb.org/3/person/popular - get a list of popular actors.
+- https://api.themoviedb.org/3/person/${id}/images -get images for actors
+- https://api.themoviedb.org/3/movie/upcoming -get upcoming movies
+- https://api.themoviedb.org/3/movie/now_playing -get now_playing movies
+- https://api.themoviedb.org/3/movie/top_rated -get top_rated movies
+- https://api.themoviedb.org/3/movie/popular -get popular movies
+- https://api.themoviedb.org/3/authentication/token/new -Create a temporary request token that can be used to validate a TMDB user login
+- https://api.themoviedb.org/3/authentication/token/validate_with_login -Validate a request token by entering a username and password.
+- https://api.themoviedb.org/3/authentication/session/new -Create a fully valid session ID once a user has validated the request token
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Component catalogue.
+![ ](./images/homepage.png)
 
-### `npm run build`
+> Shows what I can display on my current home page, basically in the header_site. The interface can be jumped through buttons.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![ ](./images/loginpage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> The login page is shown in the figure above.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![ ](./images/redbutton.png)
 
-### `npm run eject`
+> when click the add to favourite or add to must watch button it will turn red.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![ ](./images/favouritepage.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Show movies which had been add to favourite.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![ ](./images/mustwatchpage.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> Show movies which had been add to mustwatch.
 
-## Learn More
+![ ](./images/Review.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> Review is still displayed as a drop-down menu
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![ ](./images/nowplaying.png)
 
-### Code Splitting
+> Shows what I can display on my current hnowplaying page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+![ ](./images/upcomepage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> A list of upcoming movies.
 
-### Making a Progressive Web App
+![ ](./images/popularpage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> A list of popular movies.
 
-### Advanced Configuration
+![ ](./images/topratedPage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> A list of top rated movies.
 
-### Deployment
+![ ](./images/searchbylitter.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Search movies by name this example is search which name contains 'm'.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![ ](./images/searchbygenre.png)
+
+>Search movies by genre this example is search which name contains 'm' and which genre is action.
+
+![ ](./images/twobuttons.png)
+
+>Two buttons in moviedetails page one can turn to home page another one can turn to actor page.
+
+![ ](./images/actor.png)
+
+>It is a list of actor.
+
+![ ](./images/actorsearch.png)
+
+>It is a filter witch can search actor by name.
+
+
+
+
+
+
+
+
+
+
+
+
+
