@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PageTemplate from "../components/templateActorListPage";
+//import PageTemplate from "../components/templateActorListPage";
 import { useQuery } from "react-query";
 import Spinner from "../components/spinner";
 import { getPopularActor } from "../api/tmdb-api";
