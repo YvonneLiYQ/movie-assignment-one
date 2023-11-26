@@ -35,6 +35,8 @@ Web movies app Assignment 1
 
 ### Component catalogue.
 ![ ](./images/homepage.png)
+![ ](./movies/src/images/homepage.png)
+
 
 > Shows what I can display on my current home page, basically in the header_site. The interface can be jumped through buttons.
 
