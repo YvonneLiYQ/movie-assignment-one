@@ -18,4 +18,5 @@ const AddToMustWatchIcon = ({ movie }) => {
   );
 };
 
+
 export default AddToMustWatchIcon;
