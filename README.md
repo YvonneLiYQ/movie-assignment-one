@@ -148,7 +148,7 @@ This repository contains React applications and contains Cypress tests and GitLa
 
 + cypress/e2e/topRated-page.cy.js
 
-## Code Splitting.
+### Code Splitting.
 
 + src/index.js
 + src/pages/homePage.js
@@ -158,7 +158,7 @@ This repository contains React applications and contains Cypress tests and GitLa
 + src/components/movie/filterMoviesCard/index.js
 + src/components/movie/movieList/index.js
 
-## Build 
+### Build 
 ![ ](./images/build.png)
 
 
